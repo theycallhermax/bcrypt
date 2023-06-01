@@ -1,4 +1,6 @@
-const js_bcrypt = import("https://www.unpkg.com/bcrypt@5.1.0/bcrypt.js");
+const js_bcrypt = async () => {
+    return import("https://www.unpkg.com/bcrypt@latest/bcrypt.js").then(res);
+}
 
 class bcrypt {
     getInfo() {
