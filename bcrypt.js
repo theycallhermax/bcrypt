@@ -26,8 +26,8 @@ class bcrypt {
     }
 
     hash(args) {
-        const salt = bcrypt.genSaltSync(args.ROUNDS);
-        return bcrypt.hashSync(args.STRING, salt);
+        const salt = js_bcrypt.genSaltSync(args.ROUNDS);
+        return js_bcrypt.hashSync(args.STRING, salt);
     }
 }
 
