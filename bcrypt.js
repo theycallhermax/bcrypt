@@ -1,5 +1,5 @@
 const js_bcrypt = async () => {
-    return import("https://www.unpkg.com/bcrypt@latest/bcrypt.js").then(res);
+    return import("https://www.unpkg.com/bcrypt@latest/bcrypt.js").then({res});
 }
 
 class bcrypt {
