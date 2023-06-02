@@ -1,2 +1,2 @@
 # bcrypt
-Scratch extension frontend for bcrypt
+bcrypt wrapper for Scratch
